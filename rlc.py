@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score , mean_squared_error
 
-
+#data
 R = np.arange(0.01,50,0.01,dtype=float).reshape(-1,1)
 L = np.arange(0.01,50,0.01,dtype=float).reshape(-1,1)
 C = np.arange(0.01,50,0.01,dtype=float).reshape(-1,1)
